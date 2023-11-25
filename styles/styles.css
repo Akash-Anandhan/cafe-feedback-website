@@ -10,6 +10,7 @@
 .sheet{
     background-color: rgba(0, 0, 0, 0.5);
     width: 80%;
+    max-width: 750px;
     height: 400px;
     display: flex;
     border-radius: 50px;
