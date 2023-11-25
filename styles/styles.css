@@ -1,0 +1,146 @@
+
+.master_div{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.sheet{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 80%;
+    height: 400px;
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255,0.5) ;
+    margin-top: 20px;
+
+
+}
+h1,h2{
+    font-family: bebas neue;
+    margin: 0px;
+    padding: 0px;
+    color: #F5CCA0;
+    font-size: 50px;
+}
+h2{
+    font-size: 20px;
+}
+
+.userinfo{
+    display: flex;
+    width: 100%;
+
+}
+.line{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    
+}
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top:10px;
+
+
+}
+.prompt{
+    display: flex;
+    color: white;
+    font-family: bebas neue;
+    font-size: 25px;
+    margin-left: 20px;
+    width: 300px;
+
+
+}
+.prompt1{
+    color: white;
+    font-family: bebas neue;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.input{
+    width: 100%;
+    height: 25px;
+    background-color: rgba(112, 97, 75, 0.8);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+}
+.input::placeholder{
+    padding-left: 5px;
+}
+input:hover{
+    border-width: 2px;
+}
+
+
+
+.countrycode{
+    height: 29px;
+    background-color: rgba(112, 97, 75, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    margin-right: -46px;
+    z-index: 10;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius:0px ;
+    
+}
+input{
+    color: white;
+}
+label{
+    color: wheat;
+}
+.rating{
+    width: 100%;
+
+    
+}
+.empty{
+    height: 180px;
+}
+
+.submit{
+    margin-top: 40px;
+    padding: 8px 16px ;
+    background-color: #ffe6a7 ;
+    border: none;
+    color: #432818;
+    font-weight: 600;
+    font-family: arial;
+    border-radius: 5px 
+   
+}
+.submit:hover{
+    background-color: #432818;
+    color: #ffe6a7;
+    transition: color 0.2s,  ;
+    transition: background-color 0.2s;
+}
+.submit:active{
+    opacity: 0.8;
+}
+.input::placeholder{
+    color: white;
+    opacity: 0.3;
+    font-weight: 100;
+}
+
+.para{
+    height: 80px;
+}
